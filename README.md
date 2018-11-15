@@ -67,7 +67,7 @@ Descargue el proyecto junto con sus sub-proyectos localizados en el repositorio
 
 ***** Ejecutar el archivo (.sh) que ponga Luis <br />
 ***** Levantar la imagen del WSO2 que envio William <br />
-***** Levantar la BD con el Kafka que Pnga Mario <br />
+***** Levantar la BD con el Kafka que Ponga Mario <br />
 
 ## Conclusión
 Podemos observar que el aprovechamiento de metodologias ya analizadas por varios años, nos permite enfrentar inconvenientes que se presentan en los procesos del dia a dia que deben afrontar las organizaciones en la búsqueda de presentar un espectro de servicios mucho mas amplio a los clientes finales, para lograr obtener un mayor beneficio en sus propuestas de valor y una mayor presencia competitiva en el mercado, produciendo al mismo tiempo una mayor oferta de servicios de consumo en la sociedad para lograr evolucionar al final, en los aspectos de la tecnología que nos mantienen a todos nosotros aqui reunidos en formación y aplicación constante mediante propuestas cada vez más livianas e innovadoras.
@@ -79,4 +79,4 @@ Esta solución de Arquitectura fue elaborada por los estudiantes de la Especiali
 -Luis Tejedor <br />
 -William MArtin <br />
 
- Noviembre 2018 ©
+ Noviembre 2018 PUJ  Bogotá  - Colombia ©
