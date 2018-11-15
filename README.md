@@ -77,6 +77,6 @@ Esta solución de Arquitectura fue elaborada por los estudiantes de la Especiali
 
 -Mario Bonilla <br />
 -Luis Tejedor <br />
--William MArtin <br />
+-William Martin <br />
 
  Noviembre 2018 PUJ  Bogotá  - Colombia ©
