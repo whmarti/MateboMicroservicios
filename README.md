@@ -66,7 +66,7 @@ Para la Implementación se trabajó con Ubuntu 18.04 LTE, SqlServer 14.00.30.45,
 Descargue el proyecto junto con sus sub-proyectos localizados en el repositorio
 
 ***** Ejecutar el archivo (.sh) que ponga Luis <br />
-***** Levantar la imagen del WSO2 que envio William < br />
+***** Levantar la imagen del WSO2 que envio William <br />
 ***** Levantar la BD con el Kafka que Pnga Mario <br />
 
 ## Conclusión
