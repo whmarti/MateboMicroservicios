@@ -26,7 +26,7 @@ Se desea  un conjunto de servicios que representen las necesidades internas del 
 10. [Presentado](#presentado)
 
 ## Estilo de Arquitectura
-La Arquitectura de la solución presentada esta basada principalmente en el Patron Nuclear API Gateway con el cual se busca ocultar los microservicios que ofrecen las funcionalidades al cliente dejando un único Endpoint para que ellos se comuniquen. Todas las solicitudes entrantes seran enrutadas hacia los servicios especificos. Ver [aquí](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Arq_Gateway.JPG) el modelo específico.
+La Arquitectura de la solución presentada esta basada principalmente en el Patron Nuclear API Gateway con el cual se busca ocultar los microservicios que ofrecen las funcionalidades al cliente dejando un único Endpoint para que ellos se comuniquen. Todas las solicitudes entrantes seran enrutadas hacia los servicios especificos. Ver [aquí](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Arqui_Gateway.JPG) el modelo específico.
 
 ![Arqui](https://github.com/whmarti/MateboMicroservicios/blob/master/images/DiagComponentes_v1.png)
 ## Patrones de Diseño
