@@ -26,7 +26,7 @@ Se desea  un conjunto de servicios que representen las necesidades internas del 
 10. [Presentado](#presentado)
 
 ## Estilo de Arquitectura
-La Arquitectura de la solución presentada esta basada principalmente en el Patron Nuclear API Gateway con el cual se busca ocultar los microservicios que ofrecen las funcionalidades al cliente dejando un único Endpoint para que ellos se comuniquen. Todas las solicitudes entrantes seran enrutadas hacia los servicios especificos. Ver [aquí](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Arqui_Gateway.JPG) el modelo específico.
+La Arquitectura de la solución presentada se apoya en el Patron API Gateway con el cual se busca ocultar los microservicios que ofrecen las funcionalidades al cliente dejando un único Endpoint para que ellos se comuniquen. Todas las solicitudes entrantes seran enrutadas hacia los servicios especificos. Ver [aquí](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Arqui_Gateway.JPG) el modelo específico.
 
 ![Arqui](https://github.com/whmarti/MateboMicroservicios/blob/master/images/DiagComponentes_v1.png)
 ## Patrones de Diseño
@@ -42,7 +42,8 @@ Se utiliza la herramienta gestora de APIs WSO2 la cual ayuda a la consecución d
 ![Inventory Manager](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Inventary_Mger.JPG)
 
 ## Ventajas
-El utilizar este tipo de arquitectura API-Gatewaycontribuye a los siguientes beneficios:
+La solución arquitectónica planteada brinda los siguientes beneficios:
+
 -Disminución del intercambio de mensajes entre el cliente y el API del Back-end, que para éste caso son de Proveedores remotos al sistema.
 
 -Interoperabilidad e integración entre sistemas hetereogeneos, facilitando la inclusión de nuevos Proveedores al sistema en tiempo de ejecución, sin requerir especificaciones funcionales complejas.
@@ -63,11 +64,11 @@ Para la Implementación se trabajó con Ubuntu 18.04 LTE, SqlServer 14.00.30.45,
 
 ## Funcionamiento y virtualización con Docker
 ### Github
-Descargue el proyecto junto con sus sub-proyectos localizados en el repositorio
+Descargue el proyecto junto con sus sub-proyectos localizados en el repositorio (ABCBanckOnContainers).
 
-***** Ejecutar el archivo (.sh) que ponga Luis <br />
-***** Levantar la imagen del WSO2 que envio William <br />
-***** Levantar la BD con el Kafka que Ponga Mario <br />
+Ubicarse dentro de la carpeta ABCBanckOnContainers.
+
+Ejecutar archivo Dockercompose.yml a través del comando: docker-compose -d --build <br />
 
 ## Conclusión
 Podemos observar que el aprovechamiento de metodologias ya analizadas por varios años, nos permite enfrentar inconvenientes que se presentan en los procesos del dia a dia que deben afrontar las organizaciones en la búsqueda de presentar un espectro de servicios mucho mas amplio a los clientes finales, para lograr obtener un mayor beneficio en sus propuestas de valor y una mayor presencia competitiva en el mercado, produciendo al mismo tiempo una mayor oferta de servicios de consumo en la sociedad para lograr evolucionar al final, en los aspectos de la tecnología que nos mantienen a todos nosotros aqui reunidos en formación y aplicación constante mediante propuestas cada vez más livianas e innovadoras.
