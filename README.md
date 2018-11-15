@@ -52,7 +52,8 @@ El utilizar este tipo de arquitectura API-Gatewaycontribuye a los siguientes ben
 ## Desventajas
 Al mismo tiempo al utilizar ésta arquitectura se deben tener en cuenta las siguientes consideraciones:
 
--Para el consumo de multiples usuarios simultaneos aunque en menor medida que con peticiones a plataformas de clientes convencionales, ya que se posee un cuello de botella a nivel de llamado de microservicios el cual debe ser escalado horizontalmente de forma cuidadosa. Se recomienda tener multiples API gateway.<br />
+-Para el consumo de multiples usuarios simultaneos aunque en menor medida que con peticiones a plataformas de clientes convencionales, ya que se posee un cuello de botella a nivel de llamado de microservicios el cual debe ser escalado horizontalmente de forma cuidadosa. Se recomienda tener multiples API gateway.
+
 -Al ser Multi-DataType, se deberá sacrificar un tiempo extra al momento de transformar la información que venga solicitada en un formato y la requiera procesar un Proveedor en otro.
 
 ## Implementación
@@ -65,7 +66,7 @@ Para la Implementación se trabajó con Ubuntu 18.04 LTE, SqlServer 14.00.30.45,
 Descargue el proyecto junto con sus sub-proyectos localizados en el repositorio
 
 ***** Ejecutar el archivo (.sh) que ponga Luis <br />
-***** Levantar la imagen del WSO2 que envio William< br />
+***** Levantar la imagen del WSO2 que envio William < br />
 ***** Levantar la BD con el Kafka que Pnga Mario <br />
 
 ## Conclusión
