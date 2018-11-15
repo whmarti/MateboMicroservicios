@@ -6,10 +6,10 @@ El siguiente proyecto pretende modelar e implementar una solución de Arquitectu
 
 Se desea modelar la arquitectura de un sistema que mejore los metodos de pago de servicios públicos que actualmente realiza el banco ABC, llevándolo a un proceso más ágil para responder a las nuevas necesidades del mercado. Existen convenios con distintos Proveedores de servicio (Agua, Luz, Gas, Telefonía), para que los usuarios realicen los pagos a través de diferentes canales de servicio (Cajeros Automáticos, de Oficina, Telefono, Portales Web, Aplicación Movil).
 
-Se desea que el Banco pueda adicionar nuevos convenios con otros Operadores. Se tendran las siguientes operaciones que podrán soportar cada uno delos convenios:
-● Consulta de saldo a Pagar  
-● Pago del Servicio  
-● Compensación de pago 
+Se desea que el Banco pueda adicionar nuevos convenios con otros Operadores. Se tendran las siguientes operaciones que podrán soportar cada uno delos convenios:<br />
+● Consulta de saldo a Pagar  <br />
+● Pago del Servicio  <br />
+● Compensación de pago <br />
 
 Se desea  un conjunto de servicios que representen las necesidades internas del Banco con lo que se permita desacoplar los servicios de los Proveedores y así no depender de sus detalles.  
 
@@ -33,7 +33,7 @@ Otros patrones tambien manejados: Logic Centralization para evitar redundancia d
 
 ## Estilo y uso de Servicios
 Una vez el usuario realiza alguna de las operaciones a su disposición, a través del Api-Gateway se trasladará la petición dentro del modulo interno de Servicio de Pago, quien hará un envio de mensaje a Kafka para que utilizando la composición de servicios basada en Orquestación, solicite al Dispatcher resuelva a que operador (Convenio) le corresponde atender la operación (utilizando el servicio Routing) y luego invoque (Utilizando el servicio Dispatching) el servicio que corresponda, para lo cual se apoyará en el servicio (Transform) con e fin de trasformar el mensaje en el formato en el que el Proveedor que recibirá la petición.
-![Uso](https://github.com/whmarti/MateboMicroservicios/images/Implmenta2.JPG)
+![Uso](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Implmenta2.JPG)
 
 ## Manejo de Contratos, esquemas y políticas
 Se utiliza la herramienta gestora de APIs WSO2 la cual ayuda a la consecución de accesos y a la gobernabilidad y el analisis de todas las APIs allí almacenadas. Aquí se maneja desde su diseño (a nivel de (Contratos) la gestación y creación de cada uno de los contratos, sus esquemas, las politicas de archivado, ciclo de vida, los sitios permitidos desde donde estaran publicados en ambiente de pruebas y de producción, los canales por los cuales se podran consumir, se manejaran los versionamientos de cada uno, los tiempos de timeout, la documentación de cada servicio, usuarios que pueden tener acceso de consumo, etc.
