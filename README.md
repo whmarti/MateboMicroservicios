@@ -38,6 +38,7 @@ Una vez el usuario realiza alguna de las operaciones a su disposición, a travé
 
 ## Manejo de Contratos, esquemas y políticas
 Se utiliza la herramienta gestora de APIs WSO2 la cual ayuda a la consecución de accesos y a la gobernabilidad y el analisis de todas las APIs allí almacenadas. Aquí se maneja desde su diseño (a nivel de (Contratos) la gestación y creación de cada uno de los contratos, sus esquemas, las politicas de archivado, ciclo de vida, los sitios permitidos desde donde estaran publicados en ambiente de pruebas y de producción, los canales por los cuales se podran consumir, se manejaran los versionamientos de cada uno, los tiempos de timeout, la documentación de cada servicio, usuarios que pueden tener acceso de consumo, etc.
+
 ![Inventory Manager](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Inventary_Mger.JPG)
 
 ## Ventajas
@@ -56,6 +57,7 @@ Al mismo tiempo al utilizar ésta arquitectura se deben tener en cuenta las sigu
 
 ## Implementación
 Para la Implementación se trabajó con Ubuntu 18.04 LTE, SqlServer 14.00.30.45, Net Core v 2.1 para el desarrollo de los micro servicios, WSO2 para el manejo de Inventario de Servicios, Portainer I.O para el manejo y monitoreo de Contenedores, instancias y contenedores de Kafka. 
+
 ![Portainer.IO](https://github.com/whmarti/MateboMicroservicios/blob/master/images/Portainer_Kafka.JPG)
 
 ## Funcionamiento y virtualización con Docker
